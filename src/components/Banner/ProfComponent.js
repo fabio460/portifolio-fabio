@@ -5,6 +5,8 @@ import { GiEarthAmerica } from "react-icons/gi";
 
 import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
+import ReactWhatsapp from "react-whatsapp";
+import { BsWhatsapp } from "react-icons/bs";
 
 
 
@@ -50,6 +52,26 @@ const ProfComponent = () => {
               <span>
                 <a href="https://www.linkedin.com/in/fabio-oliveira-b2589163/">
                   <FaLinkedinIn />
+                </a>
+              </span>
+              <span>
+                <a href="">
+                  <ReactWhatsapp 
+                    style={{
+                      background:"inherit",
+                      color:"inherit",
+                      fontSize:"inherit",
+                      fontWeight:"inherit",
+                      border:"inherit",
+                      position: "relative",
+                      top: "0%",
+                      bottom:"2.2px",
+                      left: "inherit",
+                      transform: "inherit"
+                    }}
+                    number="21 999718892" message="Bem vindo, me envie uma pergunta!">
+                      <BsWhatsapp />
+                  </ReactWhatsapp>
                 </a>
               </span>
             </div>

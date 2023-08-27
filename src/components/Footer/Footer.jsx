@@ -57,6 +57,7 @@ const Footer = () => {
               }} number="21 999718892" message="Bem vindo, me envie uma pergunta!">
                 <a href="">21 999718892</a>
               </ReactWhatsapp>
+ 
             </Slide>
           </div>
           <div>
@@ -102,6 +103,23 @@ const Footer = () => {
                   <AiOutlineInstagram />
                 </a>
               </span>
+            </Zoom>
+            <Zoom>
+             <ReactWhatsapp 
+                style={{
+                  background:"inherit",
+                  color:"inherit",
+                  fontSize:"inherit",
+                  fontWeight:"inherit",
+                  border:"inherit"
+                }}
+                number="21 999718892" message="Bem vindo, me envie uma pergunta!">
+                <span>
+                <a href="">
+                  <BsWhatsapp />
+                </a>
+              </span>
+              </ReactWhatsapp>
             </Zoom>
           </div>
         </div>
