@@ -39,7 +39,7 @@ const Footer = () => {
               <FiPhoneCall />
             </span>
             <Slide direction="left">
-              <a href="tel:+4733378901">21 978784620</a>
+              <a href="">21 978784620</a>
             </Slide>
           </div>
           <div>
@@ -47,7 +47,7 @@ const Footer = () => {
               <BsWhatsapp />
             </span>
             <Slide direction="left">
-              <a href="tel:+4733378901">+21 999718892</a>
+              <a href="">+21 999718892</a>
             </Slide>
           </div>
           <div>
@@ -104,27 +104,12 @@ const Footer = () => {
       </Profile>
       <Form>
         <Slide direction="right">
-          <form>
-            <div className="name">
-              <span>
-                <CgProfile />
-              </span>
-              <input type="text" placeholder="Fullname..." />
-            </div>
-            <div className="email">
-              <span>
-                <MdAlternateEmail />
-              </span>
-              <input type="email" placeholder="Email..." />
-            </div>
-            <div className="message">
-              <span className="messageIcon">
-                <FiMail />
-              </span>
-              <textarea cols="30" rows="10" placeholder="Message..."></textarea>
-            </div>
-            <button>Submit</button>
-          </form>
+          <a 
+             href="https://firebasestorage.googleapis.com/v0/b/galeria-de-fotos-69d44.appspot.com/o/Curr%C3%ADculo%20Fabio%20.pdf?alt=media&token=4f0bd07c-32c2-466e-b2dc-ec6e0e944691"
+          >
+    
+            <img src={require('../../images/img curriculo.jpg')} alt="" />
+          </a>
         </Slide>
       </Form>
     </Container>
@@ -244,9 +229,13 @@ const Form = styled.div`
     padding-bottom: 0.7rem;
   }
 
-  form {
+  div {
     background-color: #191923;
     padding: 0.8rem;
+    display:flex;
+    width:70%;
+    margin-left:auto;
+    justify-content: center;
     border-radius: 5px;
     .name,
     .email,
