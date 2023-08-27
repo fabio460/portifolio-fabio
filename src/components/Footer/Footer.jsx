@@ -104,11 +104,11 @@ const Footer = () => {
       </Profile>
       <Form>
         <Slide direction="right">
+          <div>Clique na imagem</div>
           <a 
              href="https://firebasestorage.googleapis.com/v0/b/galeria-de-fotos-69d44.appspot.com/o/Curr%C3%ADculo%20Fabio%20.pdf?alt=media&token=4f0bd07c-32c2-466e-b2dc-ec6e0e944691"
           >
-    
-            <img src={require('../../images/img curriculo.jpg')} alt="" />
+            <img style={{maxWidth:"100%"}} src={require('../../images/img curriculo.jpg')} alt="" />
           </a>
         </Slide>
       </Form>
@@ -206,8 +206,8 @@ const Profile = styled.div`
   }
 `;
 const ArrowUp = styled.div`
-  width: 2rem;
-  height: 2rem;
+  max-width: 2rem;
+  max-height: 2rem;
   background-color: #01be96;
   display: flex;
   align-items: center;
@@ -233,7 +233,7 @@ const Form = styled.div`
     background-color: #191923;
     padding: 0.8rem;
     display:flex;
-    width:70%;
+    max-width:70%;
     margin-left:auto;
     justify-content: center;
     border-radius: 5px;
@@ -254,7 +254,7 @@ const Form = styled.div`
       }
       span {
         background-color: #3e3e3e;
-        width: 3rem;
+        max-width: 3rem;
         display: flex;
         align-items: center;
         justify-content: center;

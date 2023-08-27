@@ -151,21 +151,21 @@ const Social = styled.div`
 `;
 const Profile = styled.div`
   img {
-    width: 25rem;
-    height: 25rem;
+    max-width: 25rem;
+    max-height: 25rem;
     border-radius:15rem;
     filter: drop-shadow(0px 10px 10px #01be9570);
     transition: transform 400ms ease-in-out;
     @media (max-width: 790px) {
-      width: 20rem;
+      max-width: 20rem;
     }
 
     @media (max-width: 660px) {
-      width: 18rem;
+      max-width: 18rem;
     }
 
     @media (max-width: 640px) {
-      width: 100%;
+      max-width: 100%;
     }
   }
 
