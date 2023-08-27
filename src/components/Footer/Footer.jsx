@@ -104,7 +104,7 @@ const Footer = () => {
       </Profile>
       <Form>
         <Slide direction="right">
-          <div>Clique na imagem</div>
+          <div style={{fontSize:"10px"}}>Clique na imagem</div>
           <a 
              href="https://firebasestorage.googleapis.com/v0/b/galeria-de-fotos-69d44.appspot.com/o/Curr%C3%ADculo%20Fabio%20.pdf?alt=media&token=4f0bd07c-32c2-466e-b2dc-ec6e0e944691"
           >
