@@ -9,7 +9,7 @@ import { Slide } from "react-awesome-reveal";
 
 
 const ProfComponent = () => {
-  const perfil = require('../../images/foto-fabio.jpg')
+  const perfil = require('../../images/fabio.jpg')
 
   const perfilOriginal = "https://res.cloudinary.com/ghazni/image/upload/v1659082282/Yt-portfolio/Untitled-1_drcspz.png"
   return (
