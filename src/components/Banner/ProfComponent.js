@@ -24,7 +24,7 @@ const ProfComponent = () => {
           <h1 className="green">Fabio Oliveira</h1>
           <h3>Sou desenvolvedor web</h3>
           <p style={{marginBottom:"30px"}}>
-             Ao longo de 3 anos me dedico a diversos projetos com o objetivo de estar sempre em prática 
+             Ao longo de 3 anos me dedico a desenvolver projetos com o objetivo de estar sempre em prática 
              além de cada vez me atualizar em novas tecnologias!
           </p>
           <a 
@@ -32,7 +32,7 @@ const ProfComponent = () => {
             href="https://firebasestorage.googleapis.com/v0/b/galeria-de-fotos-69d44.appspot.com/o/Curr%C3%ADculo%20Fabio%20.pdf?alt=media&token=4f0bd07c-32c2-466e-b2dc-ec6e0e944691"
   
           >
-            Baixe o currículo
+            Baixe meu currículo
           </a>
           <Social>
             <p>Veja minhas redes sociais</p>
