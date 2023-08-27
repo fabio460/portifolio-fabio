@@ -3,10 +3,11 @@ import styled from "styled-components";
 import { MdAlternateEmail, MdZoomOutMap } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
 import { HiOutlineMailOpen } from "react-icons/hi";
-import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp, AiOutlineInstagram } from "react-icons/ai";
 import { BsFacebook, BsSlack, BsWhatsapp } from "react-icons/bs";
 import { FiMail, FiPhoneCall } from "react-icons/fi";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
+import ReactWhatsapp from "react-whatsapp";
 
 
 const Footer = () => {
@@ -39,7 +40,7 @@ const Footer = () => {
               <FiPhoneCall />
             </span>
             <Slide direction="left">
-              <a href="">21 978784620</a>
+              <a>21 978784620</a>
             </Slide>
           </div>
           <div>
@@ -47,7 +48,15 @@ const Footer = () => {
               <BsWhatsapp />
             </span>
             <Slide direction="left">
-              <a href="">+21 999718892</a>
+              <ReactWhatsapp style={{
+                  background:"inherit",
+                  color:"inherit",
+                  fontSize:"inherit",
+                  fontWeight:"inherit",
+                  border:"inherit"
+              }} number="21 999718892" message="Bem vindo, me envie uma pergunta!">
+                <a href="">21 999718892</a>
+              </ReactWhatsapp>
             </Slide>
           </div>
           <div>
@@ -57,7 +66,7 @@ const Footer = () => {
               </span>
             </Slide>
             <Slide>
-              <a href="mailto:miladamiri@gmail.com">dasilvadeoliveirafabio@gmail.com</a>
+              <a>dasilvadeoliveirafabio@gmail.com</a>
             </Slide>
           </div>
         </div>
@@ -68,29 +77,29 @@ const Footer = () => {
           <div className="icons">
             <Zoom>
               <span>
-                <a href="/">
+                <a href="https://github.com/fabio460">
                   <AiFillGithub />
                 </a>
               </span>
             </Zoom>
             <Zoom>
               <span>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/fabio-oliveira-b2589163/">
                   <AiFillLinkedin />
                 </a>
               </span>
             </Zoom>
             <Zoom>
               <span>
-                <a href="/">
+                <a href="https://www.facebook.com/dasilvadeoliveirafabio/">
                   <BsFacebook />
                 </a>
               </span>
             </Zoom>
             <Zoom>
               <span>
-                <a href="/">
-                  <BsSlack />
+                <a href="https://www.instagram.com/dasilvadeoliveirafabio/">
+                  <AiOutlineInstagram />
                 </a>
               </span>
             </Zoom>

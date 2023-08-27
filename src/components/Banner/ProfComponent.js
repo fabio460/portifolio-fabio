@@ -10,7 +10,10 @@ import { Slide } from "react-awesome-reveal";
 
 const ProfComponent = () => {
   const perfil = require('../../images/fabio.jpg')
+  // const clickLink = ()=>{
+  //   href="https://firebasestorage.googleapis.com/v0/b/galeria-de-fotos-69d44.appspot.com/o/Curr%C3%ADculo%20Fabio%20.pdf?alt=media&token=4f0bd07c-32c2-466e-b2dc-ec6e0e944691"
 
+  // }
   return (
     <Container id="home">
       <Slide direction="left">
@@ -20,11 +23,17 @@ const ProfComponent = () => {
           </h4>
           <h1 className="green">Fabio Oliveira</h1>
           <h3>Sou desenvolvedor web</h3>
-          <p>
+          <p style={{marginBottom:"30px"}}>
              Ao longo de 3 anos me dedico a diversos projetos com o objetivo de estar sempre em prática 
              além de cada vez me atualizar em novas tecnologias!
           </p>
-          <button>Vamos começar</button>
+          <a 
+            className="btnCurricilo"
+            href="https://firebasestorage.googleapis.com/v0/b/galeria-de-fotos-69d44.appspot.com/o/Curr%C3%ADculo%20Fabio%20.pdf?alt=media&token=4f0bd07c-32c2-466e-b2dc-ec6e0e944691"
+  
+          >
+            Baixe o currículo
+          </a>
           <Social>
             <p>Veja minhas redes sociais</p>
             <div className="social-icons">
@@ -111,6 +120,7 @@ const Texts = styled.div`
       filter: drop-shadow(0px 10px 10px #01be9570);
     }
   }
+
 `;
 const Social = styled.div`
   margin-top: 3rem;
