@@ -9,8 +9,6 @@ import ReactWhatsapp from "react-whatsapp";
 import { BsWhatsapp } from "react-icons/bs";
 import { linkImagem } from "../../images/linkImgCurriculo";
 
-
-
 const ProfComponent = () => {
   const {linkImagem} = require('../../images/linkImgCurriculo');
   const perfil = require('../../images/fabio.jpg')
@@ -71,7 +69,7 @@ const ProfComponent = () => {
                       left: "inherit",
                       transform: "inherit"
                     }}
-                    number="21 999718892" message="Bem vindo, me envie uma pergunta!">
+                    number="+5521999718892" message="Bem vindo, me envie uma pergunta!">
                       <BsWhatsapp />
                   </ReactWhatsapp>
                 </a>
