@@ -8,7 +8,7 @@ import { BsFacebook, BsSlack, BsWhatsapp } from "react-icons/bs";
 import { FiMail, FiPhoneCall } from "react-icons/fi";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
 import ReactWhatsapp from "react-whatsapp";
-
+const {linkImagem} = require('../../images/linkImgCurriculo');
 
 const Footer = () => {
   const scrollUp = () => {
@@ -133,7 +133,7 @@ const Footer = () => {
         <Slide direction="right">
           <div style={{fontSize:"10px"}}>Clique na imagem</div>
           <a 
-             href="https://firebasestorage.googleapis.com/v0/b/galeria-de-fotos-69d44.appspot.com/o/Curr%C3%ADculo%20Fabio%20.pdf?alt=media&token=4f0bd07c-32c2-466e-b2dc-ec6e0e944691"
+             href={linkImagem}
           >
             <img style={{maxWidth:"100%"}} src={require('../../images/img curriculo.jpg')} alt="" />
           </a>

@@ -7,10 +7,12 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
 import ReactWhatsapp from "react-whatsapp";
 import { BsWhatsapp } from "react-icons/bs";
+import { linkImagem } from "../../images/linkImgCurriculo";
 
 
 
 const ProfComponent = () => {
+  const {linkImagem} = require('../../images/linkImgCurriculo');
   const perfil = require('../../images/fabio.jpg')
   // const clickLink = ()=>{
   //   href="https://firebasestorage.googleapis.com/v0/b/galeria-de-fotos-69d44.appspot.com/o/Curr%C3%ADculo%20Fabio%20.pdf?alt=media&token=4f0bd07c-32c2-466e-b2dc-ec6e0e944691"
@@ -31,7 +33,7 @@ const ProfComponent = () => {
           </p>
           <a 
             className="btnCurricilo"
-            href="https://firebasestorage.googleapis.com/v0/b/galeria-de-fotos-69d44.appspot.com/o/Curr%C3%ADculo%20Fabio%20.pdf?alt=media&token=4f0bd07c-32c2-466e-b2dc-ec6e0e944691"
+            href={linkImagem}
   
           >
             Baixe meu currículo
