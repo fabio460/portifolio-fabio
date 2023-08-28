@@ -113,7 +113,7 @@ const Footer = () => {
                   fontWeight:"inherit",
                   border:"inherit"
                 }}
-                number="21 999718892" message="Bem vindo, me envie uma pergunta!">
+                number="+5521999718892" message="Bem vindo, me envie uma pergunta!">
                 <span>
                 <a href="">
                   <BsWhatsapp />
