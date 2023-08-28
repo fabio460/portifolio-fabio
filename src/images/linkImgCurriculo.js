@@ -1,0 +1,1 @@
+export const linkImagem = "https://firebasestorage.googleapis.com/v0/b/galeria-de-fotos-69d44.appspot.com/o/Curr%C3%ADculo%20Fabio.pdf?alt=media&token=3ed64291-8228-4215-b7fd-e8101dac5fef"
