@@ -40,6 +40,11 @@ let data = [
         img : require('../../images/orçamento_img.PNG'),
         url:"https://orcamento-neon.vercel.app/",
         disc : "Aplicação de orçamento de pc gamer"
+    },
+    {
+        img: require('../../images/profissionais_img.PNG'),
+        url:"https://encontre-profissionais.vercel.app/",
+        disc : "Aplicação para encontrar profissionais em potencial"
     }
 ];
 
