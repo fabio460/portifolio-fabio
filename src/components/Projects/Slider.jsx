@@ -30,6 +30,17 @@ let data = [
         url:"https://sistema-de-transferencia-monetaria.vercel.app/",
         disc : "Aplicação de transferência monetária, quando o usuário é criado, uma conta é também criada com um saldo para transferências"
     }
+    ,
+    {
+        img : require('../../images/finanças_img.PNG'),
+        url:"https://financas-front-git-main-fabio460.vercel.app/",
+        disc : "Aplicação voltada a controle financeiro residencial"
+    },
+    {
+        img : require('../../images/orçamento_img.PNG'),
+        url:"https://orcamento-neon.vercel.app/",
+        disc : "Aplicação de orçamento de pc gamer"
+    }
 ];
 
 var settings = {
